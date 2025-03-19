@@ -1,0 +1,71 @@
+body {
+    background-image: url(kopi.jpg);
+    background-size: cover;
+}
+.kepala {
+    background-color: rgba(250, 235, 215, 0.795);
+}
+.navi {
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+}
+.list-menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    max-width: 1200px;
+}
+li {
+    margin: 20px;
+    padding: 0 20px;
+    color: rgb(0, 0, 0);
+}
+.logo {
+    align-content: center;
+    padding: 20px;
+    color:blacks;
+    font-size: 25px;
+    font-weight: 1000;
+    transform: transfrom 1s ease-in-out;
+}
+.logo:hover {
+    color: rgba(19, 2, 248, 0.731);
+}
+.text {
+    color: white;;
+    margin: 100px;
+    padding-right: 550px;
+    padding-top: 70px;
+}
+.halaman {
+   display: flex;
+   align-items: center; 
+}
+.tombol {
+    color: antiquewhite;
+    background-color: rgba(255, 179, 0, 0.772);
+}
+.judul {
+    color:antiquewhite;
+}
+.tombol:hover {
+    color: rgba(0, 0, 255, 0.719);
+}
+@media (max-width: 450px) { 
+    .judul {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 100spx;
+
+    }
+    .deskripsi {
+
+    }
+}
+
+

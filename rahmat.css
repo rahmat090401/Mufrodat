@@ -1,0 +1,11 @@
+@media (max-width:767px) {
+    h1 {
+        text-align:center;
+        margin: 50px;
+        color: aqua;
+        font-size: 50px;
+    }
+    p {
+        text-align: center;
+    }
+}

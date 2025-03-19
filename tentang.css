@@ -1,0 +1,42 @@
+body {
+    background-image: url(download.jpg);
+    background-size: cover;
+}
+.tentang-kami {
+      text-align: center;
+      margin: 30px;
+      text-align: justify;
+}
+.tentang {
+    text-align: center;
+}
+.visi {
+    text-align: center;
+    font-size: 20px;
+}
+.misi {
+    text-align: center;
+    font-size: 20px;
+}
+.tombol-kembali {
+   text-align: right;
+   padding-top: 150px;
+   margin: 40px;
+   color: white;
+
+}
+.a {
+    font-size: 20px;
+}
+.b {
+    font-size: 20px;
+}
+.c {
+    font-size: 20px;
+}
+a {
+    text-decoration: none; 
+}
+.tombol-kembali {
+    text-align: right;
+}
